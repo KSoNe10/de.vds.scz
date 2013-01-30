@@ -18,8 +18,8 @@ public class Application {
 	    {
 	       
 	        
-	       // File file = new File ("G:\\Tp\\Logs"); 				//Arbeit File-Objekt mit Pfadangabe
-	        File file = new File ("C:\\Tp\\Logs"); 				//ArbeitNOTEBOOK File-Objekt mit Pfadangabe
+	        File file = new File ("G:\\Tp\\Logs"); 				//Arbeit File-Objekt mit Pfadangabe
+	        //File file = new File ("C:\\Tp\\Logs"); 				//ArbeitNOTEBOOK File-Objekt mit Pfadangabe
 	        //File file = new File ("C:\\Tp\\Logs"); 				//HOME File-Objekt mit Pfadangabe
 	        GetAllFiles.listDir(file); 							// Übergabe des Pfads an GetAllFiles.listDir
 	        
